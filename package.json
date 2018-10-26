@@ -1,0 +1,15 @@
+{
+  "name": "yarn-including-multiple-versions-of-a-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:petrgazarov/yarn-including-multiple-versions-of-a-package.git",
+  "author": "Petr Gazarov <petrgazarov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "cicero-core-0.8": "npm:@accordproject/cicero-core@0.8.0",
+    "cicero-engine-0.8": "npm:@accordproject/cicero-engine@0.8.0"
+  }
+}
